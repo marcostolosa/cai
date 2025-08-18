@@ -31,12 +31,12 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 > We encourage you to read CAI's the technical report at https://arxiv.org/pdf/2504.06017.
 
 
-| `OT` - CAI and alias0 on: Ecoforest Heat Pumps | `Robotics` - CAI and alias0 on: Mobile Industrial Robots (MiR) |
+| [`OT` - CAI and alias0 on: Ecoforest Heat Pumps](https://aliasrobotics.com/case-study-ecoforest.php) | [`Robotics` - CAI and alias0 on: Mobile Industrial Robots (MiR)](https://aliasrobotics.com/case-study-cai-mir.php) |
 |------------------------------------------------|---------------------------------|
 | CAI discovers critical vulnerability in Ecoforest heat pumps allowing unauthorized remote access and potential catastrophic failures. AI-powered security testing reveals exposed credentials and DES encryption weaknesses affecting all of their deployed units across Europe.  | CAI-powered security testing of MiR (Mobile Industrial Robot) platform through automated ROS message injection attacks. This study demonstrates how AI-driven vulnerability discovery can expose unauthorized access to robot control systems and alarm triggers.  |
 | [![](https://aliasrobotics.com/img/case-study-portada-ecoforest.png)](https://aliasrobotics.com/case-study-ecoforest.php) | [![](https://aliasrobotics.com/img/case-study-portada-mir-cai.png)](https://aliasrobotics.com/case-study-cai-mir.php) |
 
-| `IT` (Web) - CAI and alias0 on: Mercado Libre's e-commerce | `OT` - CAI and alias0 on: MQTT broker |
+| [`IT` (Web) - CAI and alias0 on: Mercado Libre's e-commerce](https://aliasrobotics.com/case-study-mercado-libre.php) | [`OT` - CAI and alias0 on: MQTT broker](https://aliasrobotics.com/case-study-cai-mqtt-broker.php) |
 |------------------------------------------------|---------------------------------|
 |  CAI-powered API vulnerability discovery at Mercado Libre through automated enumeration attacks. This study demonstrates how AI-driven security testing can expose user data exposure risks in e-commerce platforms at scale.  |  CAI-powered testing exposed critical flaws in an MQTT broker within a Dockerized OT network. Without authentication, CAI subscribed to temperature and humidity topics and injected false values, corrupting data shown in Grafana dashboards. |
 | [![](https://aliasrobotics.com/img/case-study-portada-mercado-libre.png)](https://aliasrobotics.com/case-study-mercado-libre.php) | [![](https://aliasrobotics.com/img/case-study-portada-mqtt-broker-cai.png)](https://aliasrobotics.com/case-study-cai-mqtt-broker.php) |
@@ -113,6 +113,7 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 |-----------------------------------------------|---------------------------------|
 | [![asciicast](https://asciinema.org/a/713487.svg)](https://asciinema.org/a/713487) | [![asciicast](https://asciinema.org/a/713485.svg)](https://asciinema.org/a/713485) |
 
+More case studies and PoCs are available at [https://aliasrobotics.com/case-studies-robot-cybersecurity.php](https://aliasrobotics.com/case-studies-robot-cybersecurity.php).
 
 ## Motivation
 ### :bust_in_silhouette: Why CAI?

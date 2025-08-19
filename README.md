@@ -12,7 +12,7 @@
 
 
 [![version](https://badge.fury.io/py/cai-framework.svg)](https://badge.fury.io/py/cai-framework)
-[![downloads](https://img.shields.io/pypi/dm/cai-framework)](https://pypistats.org/packages/cai-framework)
+[![downloads](https://static.pepy.tech/badge/cai-framework)](https://pepy.tech/projects/cai-framework)
 [![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white)](https://github.com/aliasrobotics/cai)
 [![OS X](https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white)](https://github.com/aliasrobotics/cai)
 [![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white)](https://github.com/aliasrobotics/cai)

@@ -193,6 +193,10 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
   </p>
 </div>
 
+> [!NOTE]
+> Read the [CAI Fluency](https://arxiv.org/pdf/2508.13588) technical report.
+
+
 
 |       |   Description  | English | Spanish |
 |-------|----------------|---------|---------|

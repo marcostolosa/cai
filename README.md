@@ -32,12 +32,13 @@ Cybersecurity AI (CAI) is a lightweight, open-source framework that empowers sec
 - 🤖 **300+ AI Models**: Support for OpenAI, Anthropic, DeepSeek, Ollama, and more
 - 🔧 **Built-in Security Tools**: Ready-to-use tools for reconnaissance, exploitation, and privilege escalation  
 - 🏆 **Battle-tested**: Proven in HackTheBox CTFs, bug bounties, and real-world security [case studies](https://aliasrobotics.com/case-studies-robot-cybersecurity.php)
-- 🎯 **Agent-based Architecture**: Modular design with specialized agents for different security tasks
+- 🎯 **Agent-based Architecture**: Modular framework design to build specialized agents for different security tasks
+- 📚 **Research-oriented**: Research foundation to democratize cybersecurity AI for the community
 
 > [!NOTE]
 > Read the technical report: [CAI: An Open, Bug Bounty-Ready Cybersecurity AI](https://arxiv.org/pdf/2504.06017)
 >
-> For further readings, refer to our [research publications](https://aliasrobotics.com/research-security.php#papers) and also to the [CAI citation](#citation) section.
+> For further readings, refer to our [impact](#-impact) and [CAI citation](#citation) sections.
 
 
 
@@ -102,7 +103,9 @@ Cybersecurity AI (CAI) is a lightweight, open-source framework that empowers sec
 
 
 
-## 🎯 Milestones
+## 🎯 Impact
+
+### 🏆 Competitions and challenges
 [![](https://img.shields.io/badge/HTB_ranking-top_90_Spain_(5_days)-red.svg)](https://app.hackthebox.com/users/2268644)
 [![](https://img.shields.io/badge/HTB_ranking-top_50_Spain_(6_days)-red.svg)](https://app.hackthebox.com/users/2268644)
 [![](https://img.shields.io/badge/HTB_ranking-top_30_Spain_(7_days)-red.svg)](https://app.hackthebox.com/users/2268644)
@@ -112,6 +115,24 @@ Cybersecurity AI (CAI) is a lightweight, open-source framework that empowers sec
 [![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_20_World-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-750_$-yellow.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![](https://img.shields.io/badge/Mistral_AI_Robotics_Hackathon-2500_$-yellow.svg)](https://lu.ma/roboticshack?tk=RuryKF)
+
+### 📊 Research Impact
+- Pioneered LLM-powered AI Security with PentestGPT, establishing the foundation for the `Cybersecurity AI` research domain [![arXiv](https://img.shields.io/badge/arXiv-2308.06782-b31b1b.svg)](https://arxiv.org/pdf/2308.06782)
+- Established the `Cybersecurity AI` research line with **3 peer-reviewed papers and technical reports** and active research collaborations [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017) [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-b31b1b.svg)](https://arxiv.org/abs/2506.23592) [![arXiv](https://img.shields.io/badge/arXiv-2508.13588-b31b1b.svg)](https://arxiv.org/abs/2508.13588)
+- Demonstrated **3,600× performance improvement** over human penetration testers in standardized CTF benchmark evaluations [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
+- Identified **CVSS 4.3-7.5 severity vulnerabilities** in production systems through automated security assessment [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
+- **Democratization of vulnerability research**: CAI enables both non-security domain experts and experienced researchers to conduct more efficient vulnerability discovery, expanding the security research community while empowering small and medium enterprises to conduct autonomous security assessments [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
+- **Systematic evaluation of large language models** across both proprietary and open-weight architectures, revealing <u>substantial gaps</u> between vendor-reported capabilities and empirical cybersecurity performance metrics [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
+- Established the **autonomy levels in cybersecurity** and argued about autonomy vs automation in the field [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-b31b1b.svg)](https://arxiv.org/abs/2506.23592)
+- **Collaborative research initiatives** with international academic institutions focused on developing cybersecurity education curricula and training methodologies [![arXiv](https://img.shields.io/badge/arXiv-2508.13588-b31b1b.svg)](https://arxiv.org/abs/2508.13588)
+
+
+### 📚 Research products
+
+|   |    |    |
+|---|---|---|
+| [<img src="https://aliasrobotics.com/img/paper-cai.png" width="350">](https://arxiv.org/pdf/2508.13588) | [<img src="https://aliasrobotics.com/img/cai_automation_vs_autonomy.png" width="350">](https://www.arxiv.org/pdf/2506.23592) | [<img src="https://aliasrobotics.com/img/cai_fluency_cover.png" width="350">](https://arxiv.org/pdf/2504.06017) |
+
 
 ## PoCs
 | CAI with `alias0` on ROS message injection attacks in MiR-100 robot | CAI with `alias0` on API vulnerability discovery at Mercado Libre |
@@ -194,7 +215,8 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 </div>
 
 > [!NOTE]
-> Read the [CAI Fluency](https://arxiv.org/pdf/2508.13588) technical report.
+>
+> CAI Fluency technical report ([arXiv:2508.13588](https://arxiv.org/pdf/2508.13588)) establishes formal educational frameworks for cybersecurity AI literacy.
 
 
 
@@ -1042,6 +1064,13 @@ If you want to cite our work, please use the following:
 ## Acknowledgements
 
 CAI was initially developed by [Alias Robotics](https://aliasrobotics.com) and co-funded by the European EIC accelerator project RIS (GA 101161136) - HORIZON-EIC-2023-ACCELERATOR-01 call. The original agentic principles are inspired from OpenAI's [`swarm`](https://github.com/openai/swarm) library and translated into newer prototypes. This project also makes use of other relevant open source building blocks including [`LiteLLM`](https://github.com/BerriAI/litellm), and [`phoenix`](https://github.com/Arize-ai/phoenix)
+
+### Academic Collaborations
+CAI benefits from ongoing research collaborations with academic institutions. Researchers interested in collaborative projects, dataset access, or academic licenses should contact research@aliasrobotics.com. We provide special support for:
+- PhD research projects
+- Academic benchmarking studies  
+- Security education initiatives
+- Open-source contributions from research labs
 
 
 <!-- Footnotes -->

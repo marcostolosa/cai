@@ -33,6 +33,7 @@ Cybersecurity AI (CAI) is a lightweight, open-source framework that empowers sec
 - 🔧 **Built-in Security Tools**: Ready-to-use tools for reconnaissance, exploitation, and privilege escalation  
 - 🏆 **Battle-tested**: Proven in HackTheBox CTFs, bug bounties, and real-world security [case studies](https://aliasrobotics.com/case-studies-robot-cybersecurity.php)
 - 🎯 **Agent-based Architecture**: Modular framework design to build specialized agents for different security tasks
+- 🛡️ **Guardrails Protection**: Built-in defenses against prompt injection and dangerous command execution
 - 📚 **Research-oriented**: Research foundation to democratize cybersecurity AI for the community
 
 > [!NOTE]
@@ -416,7 +417,7 @@ OLLAMA_API_BASE="https://custom-openai-proxy.com/v1" cai
 
 ## :triangular_ruler: Architecture:
 
-CAI focuses on making cybersecurity agent **coordination** and **execution** lightweight, highly controllable, and useful for humans. To do so it builds upon 7 pillars: `Agent`s, `Tools`, `Handoffs`, `Patterns`, `Turns`, `Tracing` and `HITL`.
+CAI focuses on making cybersecurity agent **coordination** and **execution** lightweight, highly controllable, and useful for humans. To do so it builds upon 8 pillars: `Agent`s, `Tools`, `Handoffs`, `Patterns`, `Turns`, `Tracing`, `Guardrails` and `HITL`.
 
 ```
                   ┌───────────────┐           ┌───────────┐
@@ -426,12 +427,12 @@ CAI focuses on making cybersecurity agent **coordination** and **execution** lig
                           ▼
 ┌───────────┐       ┌───────────┐       ┌───────────┐      ┌───────────┐
 │  Patterns │◀─────▶│  Handoffs │◀────▶ │   Agents  │◀────▶│    LLMs   │
-└───────────┘       └─────┬─────┘       └───────────┘      └───────────┘
+└───────────┘       └─────┬─────┘       └─────┬─────┘      └───────────┘
                           │                   │
                           │                   ▼
-┌────────────┐       ┌────┴──────┐       ┌───────────┐
-│ Extensions │◀─────▶│  Tracing  │       │   Tools   │
-└────────────┘       └───────────┘       └───────────┘
+┌────────────┐       ┌────┴──────┐       ┌───────────┐     ┌────────────┐
+│ Extensions │◀─────▶│  Tracing  │       │   Tools   │◀───▶│ Guardrails │
+└────────────┘       └───────────┘       └───────────┘     └────────────┘
                                               │
                           ┌─────────────┬─────┴────┬─────────────┐
                           ▼             ▼          ▼             ▼
@@ -615,6 +616,18 @@ CAI implements AI observability by adopting the OpenTelemetry standard and to do
 
 ![](media/tracing.png)
 
+### 🔹 Guardrails
+
+`Guardrails` provide a critical security layer for CAI agents, protecting against prompt injection attacks and preventing execution of dangerous commands. These guardrails run in parallel to agents, validating both input and output to ensure safe operation. The framework includes:
+
+- **Input Guardrails**: Detect and block prompt injection attempts before they reach agents, using pattern matching, Unicode homograph detection, and AI-powered analysis
+- **Output Guardrails**: Validate agent outputs before execution, preventing dangerous commands like reverse shells, fork bombs, or data exfiltration  
+- **Multi-layered Defense**: Protection at input, processing, and execution stages with tool-level validation
+- **Base64/Base32 Aware**: Automatically decodes and analyzes encoded payloads to detect hidden malicious commands
+- **Configurable**: Can be enabled/disabled via `CAI_GUARDRAILS` environment variable
+
+For detailed implementation, see [docs/guardrails.md](docs/guardrails.md) and [docs/cai_prompt_injection.md](docs/cai_prompt_injection.md).
+
 ### 🔹 Human-In-The-Loop (HITL)
 
 ```
@@ -714,6 +727,7 @@ For using private models, you are given a [`.env.example`](.env.example) file. C
 | CAI_SUPPORT_INTERVAL | Number of turns between support agent executions |
 | CAI_WORKSPACE | Defines the name of the workspace |
 | CAI_WORKSPACE_DIR | Specifies the directory path where the workspace is located |
+| CAI_GUARDRAILS | Enable/disable guardrails for prompt injection protection (default: true) |
 
 </details>
 

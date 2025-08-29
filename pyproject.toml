@@ -1,6 +1,6 @@
 [project]
 name = "cai-framework"
-version = "0.5.4"
+version = "0.5.5"
 description = "Cybersecurity AI Framework"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -110,7 +110,9 @@ exclude = [
     "logs/",
     "site/",
     ".cai/",
-    "nohup.out"
+    "nohup.out",
+    "ci/",
+    "tools/cut_the_rope/"
 ]
 
 [tool.hatch.build.targets.wheel]
@@ -133,12 +135,39 @@ exclude = [
     "logs/",
     "site/",
     ".cai/",
-    "nohup.out"
+    "nohup.out",
+    "ci/",
+    "tools/cut_the_rope/"
 ]
 
 [tool.hatch.build.targets.wheel.sources]
 "src" = ""
+# Note: tools/cut_the_rope is excluded in the exclude list above
 "tools" = "tools"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    ".trunk/",
+    ".git/",
+    ".vscode/",
+    ".devcontainer/",
+    ".mypy_cache/",
+    ".pytest_cache/",
+    ".ruff_cache/",
+    "venv/",
+    ".venv/",
+    "dist/",
+    "build/",
+    "*.egg-info/",
+    "workspaces/",
+    "benchmarks/",
+    "logs/",
+    "site/",
+    ".cai/",
+    "nohup.out",
+    "ci/",
+    "tools/cut_the_rope/"
+]
 
 [tool.ruff]
 line-length = 100

@@ -101,7 +101,7 @@
     </text>
 
     <!-- Code block - centered in left panel (450px wide, center at 225) -->
-    <rect x="125" y="80" width="200" height="35" fill="url(#codeBlockBg)"
+    <rect x="95" y="80" width="260" height="35" fill="url(#codeBlockBg)"
           stroke="#529d86" stroke-width="2" rx="6" ry="6"/>
     <text x="225" y="102" font-family="'Courier New', monospace" font-size="14" font-weight="bold"
           text-anchor="middle" fill="#2d5a4d">
@@ -148,7 +148,7 @@
 
       <!-- Button with gradient and shadow - centered in right panel (447px wide, center at 673.5) -->
       <g filter="url(#buttonShadow)">
-        <rect x="573.5" y="80" width="200" height="35" fill="url(#buttonBg)"
+        <rect x="543.5" y="80" width="260" height="35" fill="url(#buttonBg)"
               stroke="#529d86" stroke-width="2" rx="6" ry="6" cursor="pointer"/>
         <text x="673.5" y="102" font-family="'Courier New', monospace" font-size="14" font-weight="bold"
               text-anchor="middle" fill="#529d86">

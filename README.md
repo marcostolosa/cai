@@ -36,13 +36,10 @@
   <table style="border-collapse: collapse; width: 100%">
     <tr>
       <td width="50%" align="center" style="padding: 0; border: none;">
-        <img src="media/cai.gif" alt="CAI Community Edition Demo" width="90%">
+        <img src="media/cai_poc.gif" alt="CAI Community Edition Demo" width="100%">
       </td>
       <td width="50%" align="center" style="padding: 0; border: none;">
-        <video width="100%" controls autoplay muted loop>
-          <source src="media/caipro.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <img src="media/caipro_poc.gif" alt="CAI PRO Professional Edition Demo" width="100%">
       </td>
     </tr>
   </table>
@@ -323,8 +320,8 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 | **Annex 1**: `CAI` 0.5.x release  | Introduce version 0.5 of `CAI` including new multi-agent functionality, new commands such as `/history`, `/compact`, `/graph` or `/memory` and a case study showing how `CAI` found a critical security flaw in OT heap pumps spread around the world. |  [![Watch the video](https://img.youtube.com/vi/OPFH0ANUMMw/0.jpg)](https://www.youtube.com/watch?v=OPFH0ANUMMw) | [![Watch the video](https://img.youtube.com/vi/Q8AI4E4gH8k/0.jpg)](https://www.youtube.com/watch?v=Q8AI4E4gH8k) |
 | **Annex 2**: `CAI` 0.4.x release and `alias0`  | Introducing version 0.4 of `CAI` with *streaming* and improved MCP support. We also introduce `alias0`, the Privacy-First Cybersecurity AI, a Model-of-Models Intelligence that implements a Privacy-by-Design architecture and obtains state-of-the-art results in cybersecurity benchmarks. |  [![Watch the video](https://img.youtube.com/vi/NZjzfnvAZcc/0.jpg)](https://www.youtube.com/watch?v=NZjzfnvAZcc) |  |
 | **Annex 3**: Cybersecurity AI Community Meeting #1  | First Cybersecurity AI (`CAI`) community meeting, over 40 participants from academia, industry, and defense gathered to discuss the open-source scaffolding behind CAI — a project designed to build agentic AI systems for cybersecurity that are open, modular, and Bug Bounty-ready. |  [![Watch the video](https://img.youtube.com/vi/4JqaTiVlgsw/0.jpg)](https://www.youtube.com/watch?v=4JqaTiVlgsw) |  |
-| **Annex 4**: `CAI PRO` PoC  | Short proof-of-concept demonstration of [CAI PRO](https://aliasrobotics.com/cybersecurityai.php) capabilities showcasing the Professional Edition with unlimited `alias1` tokens, unrestricted AI, and enterprise-grade security testing features. | <video width="100%" controls><source src="media/caipro.mp4" type="video/mp4">Your browser does not support the video tag.</video> |  |
-| **Annex 5**: `CAI` PoC  | Short proof-of-concept demonstration of CAI Community Edition showcasing the open-source framework's core capabilities for AI-powered security testing and vulnerability discovery. | <video width="100%" controls><source src="media/cai.mp4" type="video/mp4">Your browser does not support the video tag.</video> |  |
+| **Annex 4**: `CAI PRO` PoC  | Short proof-of-concept demonstration of [CAI PRO](https://aliasrobotics.com/cybersecurityai.php) capabilities showcasing the Professional Edition with unlimited `alias1` tokens, unrestricted AI, and enterprise-grade security testing features. | ![CAI PRO Demo](media/caipro_poc.gif) |  |
+| **Annex 5**: `CAI` PoC  | Short proof-of-concept demonstration of CAI Community Edition showcasing the open-source framework's core capabilities for AI-powered security testing and vulnerability discovery. | ![CAI Demo](media/cai_poc.gif) |  |
 | **Annex 6**: CAI in `Jaula del N00B`  |  CAI (CIBERSEGURIDAD CON IA) LUIJAIT EN LA JAULA DEL N00B  - Demonstration and discussion of CAI framework capabilities in the popular Spanish cybersecurity podcast/show. |  | [![Watch the video](https://img.youtube.com/vi/KD2_xzIOkWg/0.jpg)](https://www.youtube.com/watch?v=KD2_xzIOkWg) |
 
 

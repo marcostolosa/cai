@@ -33,6 +33,13 @@
 <!-- CAI PRO - Professional Edition Banner -->
 
 <div align="center">
+
+  <a href="https://aliasrobotics.com/cybersecurityai.php" target="_blank">
+    <img src="media/cai-banner.svg" alt="CAI - Community and Professional Editions" width="100%" style="max-width: 900px;">
+  </a>
+
+  <sub><i>Professional Edition with unlimited <code>alias1</code> tokens</i> | <a href="https://aliasrobotics.com/alias1.php#benchmarking">📊 View Benchmarks</a> | <a href="https://aliasrobotics.com/cybersecurityai.php">🚀 Learn More</a></sub>
+
   <table style="border-collapse: collapse; width: 100%">
     <tr>
       <td width="50%" align="center" style="padding: 0; border: none;">
@@ -42,13 +49,7 @@
         <img src="media/caipro_poc.gif" alt="CAI PRO Professional Edition Demo" width="100%">
       </td>
     </tr>
-  </table>
-
-  <a href="https://aliasrobotics.com/cybersecurityai.php" target="_blank">
-    <img src="media/cai-banner.svg" alt="CAI - Community and Professional Editions" width="100%" style="max-width: 900px;">
-  </a>
-
-  <sub><i>Professional Edition with unlimited <code>alias1</code> tokens</i> | <a href="https://aliasrobotics.com/alias1.php#benchmarking">📊 View Benchmarks</a> | <a href="https://aliasrobotics.com/cybersecurityai.php">🚀 Learn More</a></sub>
+  </table>  
 </div>
 
 <!-- Alternative HTML version (kept as comment for reference) -->

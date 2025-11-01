@@ -1085,6 +1085,34 @@ Use ```/agent``` to list all the agents available.
 ![cai-008-config](imgs/readme_imgs/cai-008-config.png)
 </details>
 
+<details>
+<summary> How can I monitor context usage and token consumption? /context or /ctx </summary>
+
+Use ```/context``` (or the short form ```/ctx```) to view your current context window usage and token statistics.
+
+This command displays:
+- Total context usage (used tokens / max tokens) with percentage
+- Visual grid representation with the CAI logo showing filled context
+- Detailed breakdown by category:
+  - System prompt tokens
+  - Tool definitions tokens
+  - Memory/RAG tokens
+  - User prompts tokens
+  - Assistant responses tokens
+  - Tool calls tokens
+  - Tool results tokens
+- Free space available
+
+**Why this matters**: Different models have different context limits (e.g., GPT-4: 128k tokens, Claude: 200k tokens). Monitoring your context usage helps you avoid hitting these limits during long conversations, which could cause errors or require conversation truncation.
+
+```bash
+# Show context usage
+/context
+
+# Or use the short form
+/ctx
+```
+</details>
 
 <details>
 <summary> How to know more about the CLI? /help </summary>

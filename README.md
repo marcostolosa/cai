@@ -1086,7 +1086,10 @@ Use ```/agent``` to list all the agents available.
 </details>
 
 <details>
-<summary> How can I monitor context usage and token consumption? /context or /ctx </summary>
+<summary> How can I monitor context usage and token consumption? /context or /ctx 🚀 CAI PRO </summary>
+
+> **⚡ CAI PRO Exclusive Feature**
+> The `/context` command is available exclusively in **[CAI PRO](https://aliasrobotics.com/cybersecurityai.php)**. To access this feature and unlock advanced monitoring capabilities, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
 
 Use ```/context``` (or the short form ```/ctx```) to view your current context window usage and token statistics.
 

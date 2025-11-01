@@ -377,7 +377,10 @@ Load a previously saved conversation.
 
 ## Utility Commands
 
-### `/context [agent_name]` or `/ctx`
+### `/context [agent_name]` or `/ctx` 🚀 **CAI PRO Exclusive**
+
+> **⚡ CAI PRO Exclusive Feature**
+> The `/context` command is available exclusively in **[CAI PRO](https://aliasrobotics.com/cybersecurityai.php)**. To access this feature and unlock advanced monitoring capabilities, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
 
 Display context window usage and token statistics for the current conversation.
 

@@ -168,27 +168,55 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 If you want to cite our work, please use the following:
 
 ```bibtex
-@misc{mayoralvilches2025caiopenbugbountyready,
-      title={CAI: An Open, Bug Bounty-Ready Cybersecurity AI},
-      author={Víctor Mayoral-Vilches and Luis Javier Navarrete-Lozano and María Sanz-Gómez and Lidia Salas Espejo and Martiño Crespo-Álvarez and Francisco Oca-Gonzalez and Francesco Balassone and Alfonso Glera-Picón and Unai Ayucar-Carbajo and Jon Ander Ruiz-Alcalde and Stefan Rass and Martin Pinzger and Endika Gil-Uriarte},
-      year={2025},
-      eprint={2504.06017},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2504.06017},
+@article{mayoral2025cai,
+  title={CAI: An Open, Bug Bounty-Ready Cybersecurity AI},
+  author={Mayoral-Vilches, V{\'\i}ctor and Navarrete-Lozano, Luis Javier and Sanz-G{\'o}mez, Mar{\'\i}a and Espejo, Lidia Salas and Crespo-{\'A}lvarez, Marti{\~n}o and Oca-Gonzalez, Francisco and Balassone, Francesco and Glera-Pic{\'o}n, Alfonso and Ayucar-Carbajo, Unai and Ruiz-Alcalde, Jon Ander and Rass, Stefan and Pinzger, Martin and Gil-Uriarte, Endika},
+  journal={arXiv preprint arXiv:2504.06017},
+  year={2025}
 }
-```
 
-```bibtex
-@misc{mayoralvilches2025cybersecurityaidangerousgap,
-      title={Cybersecurity AI: The Dangerous Gap Between Automation and Autonomy}, 
-      author={Víctor Mayoral-Vilches},
-      year={2025},
-      eprint={2506.23592},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2506.23592}, 
+@article{mayoral2025automation,
+  title={Cybersecurity AI: The Dangerous Gap Between Automation and Autonomy},
+  author={Mayoral-Vilches, V{\'\i}ctor},
+  journal={arXiv preprint arXiv:2506.23592},
+  year={2025}
 }
+
+@article{mayoral2025fluency,
+  title={CAI Fluency: A Framework for Cybersecurity AI Fluency},
+  author={Mayoral-Vilches, V{\'\i}ctor and Wachter, Jasmin and Chavez, Crist{\'o}bal RJ and Schachner, Cathrin and Navarrete-Lozano, Luis Javier and Sanz-G{\'o}mez, Mar{\'\i}a},
+  journal={arXiv preprint arXiv:2508.13588},
+  year={2025}
+}
+
+@article{mayoral2025hacking,
+  title={Cybersecurity AI: Hacking the AI Hackers via Prompt Injection},
+  author={Mayoral-Vilches, V{\'\i}ctor and Rynning, Per Mannermaa},
+  journal={arXiv preprint arXiv:2508.21669},
+  year={2025}
+}
+
+@article{mayoral2025humanoid,
+  title={Cybersecurity AI: Humanoid Robots as Attack Vectors},
+  author={Mayoral-Vilches, V{\'\i}ctor},
+  journal={arXiv preprint arXiv:2509.14139},
+  year={2025}
+}
+
+@article{balassone2025evaluation,
+  title={Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs},
+  author={Balassone, Francesco and Mayoral-Vilches, V{\'\i}ctor and Rass, Stefan and Pinzger, Martin and Perrone, Gaetano and Romano, Simon Pietro and Schartner, Peter},
+  journal={arXiv preprint arXiv:2510.17521},
+  year={2025}
+}
+
+@article{mayoral2025caibench,
+  title={CAIBench: A Meta-Benchmark for Evaluating Cybersecurity AI Agents},
+  author={Mayoral-Vilches, V{\'\i}ctor and Balassone, Francesco and Navarrete-Lozano, Luis Javier and Sanz-G{\'o}mez, Mar{\'\i}a and Crespo-{\'A}lvarez, Marti{\~n}o and Rass, Stefan and Pinzger, Martin},
+  journal={arXiv preprint arXiv:2510.24317},
+  year={2025}
+} 
+
 ```
 
 ## Acknowledgements

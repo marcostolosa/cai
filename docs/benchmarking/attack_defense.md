@@ -33,7 +33,7 @@ In rigorous Attack & Defense CTF evaluations, **`alias1` consistently outperform
     <th style="text-align:center;"><b>Best Performance in Agent vs Agent A&D</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="../assets/images/stackplot.png" alt="A&D Performance Stack Plot" /></td>
+    <td align="center"><img src="/assets/images/stackplot.png" alt="A&D Performance Stack Plot" /></td>
   </tr>
 </table>
 

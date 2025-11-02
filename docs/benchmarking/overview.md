@@ -37,16 +37,16 @@ AutoPenBench                                             │
     <th style="text-align:center;"><b>Model Performance in Jeopardy CTFs</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="../assets/images/stackplot.png" alt="A&D Performance" width="100%" /></td>
-    <td align="center"><img src="../assets/images/base_1col.png" alt="Jeopardy CTF Performance" width="100%" /></td>
+    <td align="center"><img src="/assets/images/stackplot.png" alt="A&D Performance" width="100%" /></td>
+    <td align="center"><img src="/assets/images/base_1col.png" alt="Jeopardy CTF Performance" width="100%" /></td>
   </tr>
   <tr>
     <th style="text-align:center;"><b>Model Performance in Privacy Benchmark</b></th>
     <th style="text-align:center;"><b>Overall Model Performance</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="../assets/images/cyberpii_benchmark.png" alt="Privacy Benchmark" width="100%" /></td>
-    <td align="center"><img src="../assets/images/caibench_spider.png" alt="Overall Performance" width="100%" /></td>
+    <td align="center"><img src="/assets/images/cyberpii_benchmark.png" alt="Privacy Benchmark" width="100%" /></td>
+    <td align="center"><img src="/assets/images/caibench_spider.png" alt="Overall Performance" width="100%" /></td>
   </tr>
 </table>
 

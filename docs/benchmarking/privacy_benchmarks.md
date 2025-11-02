@@ -13,7 +13,7 @@ Privacy benchmarks assess AI models' ability to handle sensitive information app
     <th style="text-align:center;"><b>Model Performance in CyberPII Privacy Benchmark</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="../assets/images/cyberpii_benchmark.png" alt="CyberPII Benchmark Results" /></td>
+    <td align="center"><img src="/assets/images/cyberpii_benchmark.png" alt="CyberPII Benchmark Results" /></td>
   </tr>
 </table>
 

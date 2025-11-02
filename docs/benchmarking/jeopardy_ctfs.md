@@ -18,7 +18,7 @@ Jeopardy-style Capture The Flag (CTF) challenges evaluate AI agents on independe
     <th style="text-align:center;"><b>Model Performance in Jeopardy CTFs Base Benchmark</b></th>
   </tr>
   <tr>
-    <td align="center"><img src="../assets/images/base_1col.png" alt="Base Benchmark Results" /></td>
+    <td align="center"><img src="/assets/images/base_1col.png" alt="Base Benchmark Results" /></td>
   </tr>
 </table>
 
